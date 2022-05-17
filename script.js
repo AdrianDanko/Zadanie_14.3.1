@@ -50,7 +50,6 @@ function vypocitaj() {
 
     }
 
-    // auto vytvorime ako objekt a budeme pridavať hodnoty do zoznamu
     let prikladInput = num1 + " " + operator + " " + num2;
     let vysledokOutput = vysledok
     zoznam.push({priklad: prikladInput, vysledok: vysledokOutput});
