@@ -1,0 +1,43 @@
+body{
+  text-align: center;
+}
+
+input, button, select{
+  font-size: 2em;
+}
+
+#calculator {
+  /*border: solid black 1px;*/
+  display: inline-block;
+  padding: 4px;
+  /*border-radius: 4px;*/
+}
+
+#number1, #number2 {
+  padding: 5px;
+  width: 50px;
+  height: 25px;
+  text-align: right;
+}
+
+#result {
+  
+  padding: 5px;
+  width: 125px;
+  height: 25px;
+  text-align: right;
+}
+
+#operations, #equal{
+  padding: 0px;
+  width: 43px;
+  height: 40px;
+  text-align: center;
+}
+
+#equal{
+  /*font-size: 1.2em;*/
+  /*font-size: 2rem;*/
+  font-weight: bold;
+  background-color: greenyellow;
+}
